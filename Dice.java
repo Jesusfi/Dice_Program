@@ -17,7 +17,7 @@ public class Dice {
 		this.currentSide = random.nextInt(6) + 1; 
 	}
 	
-	//A method that will return the cur
+	//A method that will return the value of 'currentSide'
 	public int getCurrentSide() {
 		return currentSide;
 	}
