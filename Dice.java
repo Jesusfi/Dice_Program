@@ -10,7 +10,7 @@ public class Dice {
 		this.currentSide = 1;
 	}
 	
-	//A method that will get will set 'side' to a random 
+	//A method that will get will set 'currentSide' to a random 
 	//number between 1-6
 	public void rollDice() {
 		Random random = new Random();
